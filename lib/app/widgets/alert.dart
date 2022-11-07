@@ -1,4 +1,4 @@
-import 'package:clone_instagram/generated/colors.dart';
+import 'package:clone_instagram/app/utils/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:rflutter_alert/rflutter_alert.dart';
 

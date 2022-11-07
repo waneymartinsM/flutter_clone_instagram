@@ -1,16 +1,14 @@
-# clone_instagram
 
-A new Flutter project.
+# 📷 Instagram Clone
 
-## Getting Started
+A Instagram clone written in Flutter using Firebase / Firestore.
 
-This project is a starting point for a Flutter application.
+This repository is still under development and I will continue to add more features to it.
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Technologies
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Flutter
+- Dart
+- Modular
+- MobX
+- Firebase

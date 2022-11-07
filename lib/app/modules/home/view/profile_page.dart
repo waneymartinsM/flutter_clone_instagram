@@ -1,7 +1,7 @@
 import 'package:clone_instagram/app/model/images_url.dart';
 import 'package:clone_instagram/app/modules/home/store/home_store.dart';
 import 'package:clone_instagram/app/widgets/profile_label_count.dart';
-import 'package:clone_instagram/generated/colors.dart';
+import 'package:clone_instagram/app/utils/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_modular/flutter_modular.dart';

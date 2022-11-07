@@ -1,6 +1,6 @@
 import 'package:clone_instagram/app/modules/login/store/login_store.dart';
 import 'package:clone_instagram/app/widgets/text_field_input.dart';
-import 'package:clone_instagram/generated/colors.dart';
+import 'package:clone_instagram/app/utils/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 import 'package:flutter_svg/flutter_svg.dart';

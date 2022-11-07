@@ -4,7 +4,7 @@ import 'package:clone_instagram/app/model/user.dart';
 import 'package:clone_instagram/app/modules/login/store/register_store.dart';
 import 'package:clone_instagram/app/widgets/alert.dart';
 import 'package:clone_instagram/app/widgets/text_field_input.dart';
-import 'package:clone_instagram/generated/colors.dart';
+import 'package:clone_instagram/app/utils/colors.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';

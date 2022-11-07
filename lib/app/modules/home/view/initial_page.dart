@@ -2,7 +2,7 @@ import 'package:clone_instagram/app/model/images_url.dart';
 import 'package:clone_instagram/app/modules/home/repository/home_repository.dart';
 import 'package:clone_instagram/app/modules/home/store/home_store.dart';
 import 'package:clone_instagram/app/widgets/user_post.dart';
-import 'package:clone_instagram/generated/colors.dart';
+import 'package:clone_instagram/app/utils/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 import 'package:flutter_svg/flutter_svg.dart';
