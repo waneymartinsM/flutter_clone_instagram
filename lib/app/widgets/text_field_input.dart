@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class TextFieldInput extends StatelessWidget {
   final TextEditingController controller;
@@ -27,12 +28,13 @@ class TextFieldInput extends StatelessWidget {
       onChanged: onChanged,
       decoration: InputDecoration(
         hintText: hintText,
-        border: inputBorder,
         focusedBorder: inputBorder,
         enabledBorder: inputBorder,
         filled: true,
         contentPadding: const EdgeInsets.all(8),
+        hintStyle: GoogleFonts.poppins(),
       ),
+      style: GoogleFonts.poppins(),
       keyboardType: textInputType,
       obscureText: isPass,
     );

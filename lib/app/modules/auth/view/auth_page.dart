@@ -15,25 +15,38 @@ class _AuthPageState extends State<AuthPage> {
   @override
   void initState() {
     super.initState();
+    _loading();
+  }
+
+  void _loading() async {
+    await Future.delayed(const Duration(seconds: 2));
     controller.verifyLoggedUser();
   }
 
   @override
   Widget build(BuildContext context) {
-    return SafeArea(
+    return const SafeArea(
       child: Scaffold(
         backgroundColor: Colors.white,
-        body: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: const [
-            Center(
-              child: Image(
-                image: AssetImage('assets/images/icone.png'),
-                height: 110,
-                width: 110,
+        body: Center(
+          child: Column(
+            children: [
+              Spacer(),
+              Center(
+                child: Image(
+                    image: AssetImage('assets/images/icone.png'),
+                    height: 110,
+                    width: 110),
               ),
-            ),
-          ],
+              Spacer(),
+              Padding(
+                padding: EdgeInsets.only(bottom: 25),
+                child: Image(
+                    image: AssetImage('assets/images/meta_instagram.png'),
+                    width: 150),
+              ),
+            ],
+          ),
         ),
       ),
     );

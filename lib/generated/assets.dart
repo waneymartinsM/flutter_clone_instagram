@@ -4,5 +4,6 @@ class Assets {
 
   static const String imagesFontInstagram = 'assets/images/font_instagram.svg';
   static const String imagesIcone = 'assets/images/icone.png';
+  static const String imagesMetaInstagram = 'assets/images/meta_instagram.png';
 
 }
