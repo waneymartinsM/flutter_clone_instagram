@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class ProfileLabelCount extends StatelessWidget {
   const ProfileLabelCount({
@@ -16,17 +17,12 @@ class ProfileLabelCount extends StatelessWidget {
       children: [
         Text(
           count,
-          style: const TextStyle(
-            fontWeight: FontWeight.bold,
-            fontSize: 16,
-          ),
+          style: GoogleFonts.poppins(fontWeight: FontWeight.w600, fontSize: 16),
         ),
         Text(
           labelText,
-          style: const TextStyle(
-            fontWeight: FontWeight.w400,
-            fontSize: 13.5,
-          ),
+          style:
+              GoogleFonts.poppins(fontWeight: FontWeight.w400, fontSize: 13.5),
         ),
       ],
     );

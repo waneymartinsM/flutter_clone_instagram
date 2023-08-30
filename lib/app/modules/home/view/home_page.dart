@@ -44,29 +44,27 @@ class _HomePageState extends State<HomePage> {
         type: BottomNavigationBarType.fixed,
         items: <BottomNavigationBarItem>[
           BottomNavigationBarItem(
-            icon: Icon(
-              Icons.home,
-              color: (_selectedIndex == 0) ? Colors.black : Colors.black54,
-            ),
+            icon: Image.asset("assets/icons/casa.png",
+                height: 23,
+                color: (_selectedIndex == 0) ? Colors.black : Colors.black54),
             label: '',
           ),
           BottomNavigationBarItem(
-            icon: Icon(
-              Icons.search,
+            icon: Image.asset("assets/icons/procurar.png",
+              height: 23,
               color: (_selectedIndex == 1) ? Colors.black : Colors.black54,
             ),
             label: '',
           ),
           BottomNavigationBarItem(
-            icon: Icon(
-              Icons.video_collection_outlined,
-              color: (_selectedIndex == 2) ? Colors.black : Colors.black54,
-            ),
+            icon: Image.asset("assets/icons/video.png",
+                height: 23,
+                color: (_selectedIndex == 2) ? Colors.black : Colors.black54),
             label: '',
           ),
           BottomNavigationBarItem(
-            icon: Icon(
-              Icons.shopping_bag_outlined,
+            icon:  Image.asset("assets/icons/bolsa.png",
+              height: 25,
               color: (_selectedIndex == 3) ? Colors.black : Colors.black54,
             ),
             label: '',
@@ -74,11 +72,11 @@ class _HomePageState extends State<HomePage> {
           BottomNavigationBarItem(
             icon: CircleAvatar(
               backgroundImage: NetworkImage(
-                imagesUrl[0],
+                imagesUrl[0]
               ),
-              radius: 15,
+              radius: 15
             ),
-            label: '',
+            label: ''
           ),
         ],
         onTap: _onItemTapped,

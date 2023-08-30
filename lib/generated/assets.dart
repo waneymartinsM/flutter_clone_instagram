@@ -2,6 +2,20 @@
 class Assets {
   Assets._();
 
+  static const String iconsAdicionar = 'assets/icons/adicionar.png';
+  static const String iconsBatePapo = 'assets/icons/bate_papo.png';
+  static const String iconsBatePapoLiso = 'assets/icons/bate_papo_liso.png';
+  static const String iconsBolsa = 'assets/icons/bolsa.png';
+  static const String iconsCamera = 'assets/icons/camera.png';
+  static const String iconsCasa = 'assets/icons/casa.png';
+  static const String iconsCoracao = 'assets/icons/coracao.png';
+  static const String iconsCoracaoRed = 'assets/icons/coracao_red.png';
+  static const String iconsMandar = 'assets/icons/mandar.png';
+  static const String iconsOndasAudio = 'assets/icons/ondas_audio.png';
+  static const String iconsPostagemInstagram = 'assets/icons/postagem_instagram.png';
+  static const String iconsProcurar = 'assets/icons/procurar.png';
+  static const String iconsSalvarInstagram = 'assets/icons/salvar_instagram.png';
+  static const String iconsVideo = 'assets/icons/video.png';
   static const String imagesFontInstagram = 'assets/images/font_instagram.svg';
   static const String imagesIcone = 'assets/images/icone.png';
   static const String imagesMetaInstagram = 'assets/images/meta_instagram.png';

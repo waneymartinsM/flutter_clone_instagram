@@ -1,5 +1,6 @@
 import 'package:clone_instagram/app/utils/colors.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:rflutter_alert/rflutter_alert.dart';
 
 alertDialog(
@@ -13,15 +14,11 @@ alertDialog(
     type: AlertType.none,
     title: title,
     desc: text,
-    style: const AlertStyle(
+    style: AlertStyle(
       backgroundColor: Colors.white,
-      titleStyle: TextStyle(
-        color: Colors.black,
-        fontWeight: FontWeight.w700,
-      ),
-      descStyle: TextStyle(
-        color: Colors.black,
-      ),
+      titleStyle:
+          GoogleFonts.poppins(color: Colors.black, fontWeight: FontWeight.w700),
+      descStyle: GoogleFonts.poppins(color: Colors.black),
     ),
     buttons: [
       DialogButton(
@@ -29,13 +26,8 @@ alertDialog(
         splashColor: Colors.transparent,
         width: 120,
         color: blue,
-        child: const Text(
-          "Ok",
-          style: TextStyle(
-            color: Colors.white,
-            fontSize: 20,
-          ),
-        ),
+        child: Text("Ok",
+            style: GoogleFonts.poppins(color: Colors.white, fontSize: 20)),
         onPressed: () => Navigator.pop(context),
       )
     ],
