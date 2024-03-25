@@ -8,15 +8,15 @@ Uma recriação do popular aplicativo Instagram, enfatizando a implementação d
 
 ## 🚀 Tecnologias Utilizadas:
 
-Dart: Linguagem de programação utilizada para desenvolver aplicativos Flutter.
+**Dart**: Linguagem de programação utilizada para desenvolver aplicativos Flutter.
 
-Flutter: Framework de desenvolvimento de interface de usuário multiplataforma, utilizado para criar a interface do aplicativo Instagram Clone.
+**Flutter**: Framework de desenvolvimento de interface de usuário multiplataforma, utilizado para criar a interface do aplicativo Instagram Clone.
 
-Firebase: Plataforma de desenvolvimento de aplicativos móveis do Google, utilizada para autenticação de usuário no aplicativo.
+**Firebase**: Plataforma de desenvolvimento de aplicativos móveis do Google, utilizada para autenticação de usuário no aplicativo.
 
-Modular: Framework de injeção de dependência e roteamento, utilizado para organizar e estruturar o código do projeto.
+**Modular**: Framework de injeção de dependência e roteamento, utilizado para organizar e estruturar o código do projeto.
 
-MobX: Biblioteca de gerenciamento de estado reativa, utilizada para controlar o estado da aplicação e facilitar a comunicação entre os diferentes componentes.
+**MobX**: Biblioteca de gerenciamento de estado reativa, utilizada para controlar o estado da aplicação e facilitar a comunicação entre os diferentes componentes.
 
 <p>
 <img src="screenshots/Screenshot_01.png" width="20%">
