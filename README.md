@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="https://www.designi.com.br/images/preview/10000152.jpg" alt="Logo">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/768px-Instagram_icon.png" alt="Logo" style="width: 100px; height: 100px;">
 </div>
 
 # 📷 Instagram Clone
