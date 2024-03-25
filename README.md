@@ -1,3 +1,6 @@
+<div align="center">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/768px-Instagram_icon.png" alt="Logo">
+</div>
 
 # 📷 Instagram Clone
 
