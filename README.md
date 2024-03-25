@@ -4,17 +4,19 @@
 
 # 📷 Instagram Clone
 
-A Instagram clone written in Flutter using Firebase / Firestore.
+Uma recriação do popular aplicativo Instagram, enfatizando a implementação das funções fundamentais de login e cadastro de usuários. Com o uso de tecnologias como Dart, Flutter, Firebase, Modular e MobX, estou em processo de construção da estrutura para incluir recursos como Feed, Explorar, Perfil, Reels e muito mais. Fique atento para acompanhar o desenvolvimento contínuo deste projeto.
 
-This repository is still under development and I will continue to add more features to it.
+## 🚀 Tecnologias Utilizadas:
 
-## 🚀 Technologies
+Dart: Linguagem de programação utilizada para desenvolver aplicativos Flutter.
 
-- Flutter
-- Dart
-- Modular
-- MobX
-- Firebase
+Flutter: Framework de desenvolvimento de interface de usuário multiplataforma, utilizado para criar a interface do aplicativo Instagram Clone.
+
+Firebase: Plataforma de desenvolvimento de aplicativos móveis do Google, utilizada para autenticação de usuário no aplicativo.
+
+Modular: Framework de injeção de dependência e roteamento, utilizado para organizar e estruturar o código do projeto.
+
+MobX: Biblioteca de gerenciamento de estado reativa, utilizada para controlar o estado da aplicação e facilitar a comunicação entre os diferentes componentes.
 
 <p>
 <img src="screenshots/Screenshot_01.png" width="20%">
@@ -29,3 +31,8 @@ This repository is still under development and I will continue to add more featu
 <img src="screenshots/Screenshot_07.png" width="20%">
 <img src="screenshots/Screenshot_08.png" width="20%">
 </p>
+
+
+## Contribuindo
+
+Contribuições são bem-vindas! Se você tiver alguma sugestão de melhoria, correção de bugs ou novas funcionalidades, sinta-se à vontade para abrir uma issue ou enviar um pull request no repositório do projeto.
